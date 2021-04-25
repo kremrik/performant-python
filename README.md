@@ -8,5 +8,6 @@ It's intended to be a continual work-in-progress.
 ### Contents
 - [cython](./performant_python/cython)
 - [ffi](./performant_python/ffi)
+- [idiomatic](./performant_python/idiomatic)
 - [itertools](./performant_python/itertools)
 - [profiling](./performant_python/profiling)
