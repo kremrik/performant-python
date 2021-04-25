@@ -31,7 +31,8 @@ the Cython implementation is still 5.5x faster (on my machine).
 Not bad for the marginal additional effort.
 
 ### Comparison to Java
-WIP
+On my machine, [this](../../../java/Haversine) example ran over 10x faster than the similar CPython code, and about 2x faster than the Cython version.
+I'm sure I'm not benchmarking correctly/well (definitely not consider JIT warmup), but this was still closer than I thought it would be.
 
 ### References
 - The [docs](https://cython.readthedocs.io/en/latest/index.html)
