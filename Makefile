@@ -8,7 +8,7 @@ GREEN := \e[32m
 #----------------------------------------------------------
 
 .PHONY: check
-check : unit-tests doc-tests type-check black-format flake8-lint sphinx success
+check : black-format flake8-lint success
 
 .PHONY: unit-tests
 unit-tests :
@@ -52,7 +52,6 @@ flake8-lint :
 	@echo -e 		'-----------$(NO_COLOR)'
 	@flake8 $(MODULE) \
 		--max-line-length $(LINE_LENGTH) \
-		--ignore=F401,E731,F403 \
 		--count \
 		|| exit 1
 
