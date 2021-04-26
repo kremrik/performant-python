@@ -50,7 +50,7 @@ def f_string():
     return f"Hello, {name}"
 ```
 
-Not that anyone is going to lose their minds savings 50 nanoseconds, but the newer f-string example is nevertheless over 40% faster than the C-style version:
+Not that anyone is going to flip over saving 50 nanoseconds, but the newer f-string example is nevertheless about 40% faster than the C-style version:
 
 ```python
 >>> %timeit c_style()
