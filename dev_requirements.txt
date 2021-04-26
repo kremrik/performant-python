@@ -1,3 +1,5 @@
+hrm @ git+https://github.com/kremrik/hot-rod-markdown@master
+
 mypy>=0.782
 pytest>=6.0.2
 pytest-cov>=2.10.1
